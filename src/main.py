@@ -32,103 +32,112 @@ def check_answer(question, options, correct_answer):
 questions = [
     ("What is the name of Ross’s second wife?",
     ['Carol Willick', 'Emily Waltham', 'Susan Bunch', 'Mona'],
-    'B'),
+    'Emily Waltham'),
 
     (" What instrument does Phoebe often play?",
     ['Piano', 'Violin', 'Guitar', 'Drums'],
-    'C'),
+    'Guitar'),
 
     ("What is Chandler’s job for most of the series?",
     ['Accountant', 'Lawyer', 'Copywriter', 'Data analyst in statistical processing'],
-    'D'),
+    'Data analyst in statistical processing'),
 
     ("What is the name of Joey’s agent?",
     ['Estelle Leonard', 'Janice Litman', 'Erica Ford', 'Kathy'],
-    'A'),
+    'Estelle Leonard'),
 
     ("Which character says “We were on a break!”?",
     ['Chandler Bing', 'Joey Tribbiani', 'Ross Geller', 'Mike Hannigan'],
-    'C'),
+    'Ross Geller'),
 
     ("What is the name of Monica’s restaurant where she becomes head chef?",
     ['Javu', 'The Moondance Diner', 'Café des Artistes', 'Alessandro’s'],
-    'D'),
+    'Alessandro’s'),
 
     ("What is Rachel’s first job in New York?",
     ['Assistant buyer', 'Waitress at Central Perk', 'Fashion designer', 'Receptionist'],
-    'B'),
+    'Waitress at Central Perk'),
 
     ("What is the name of Joey’s stuffed penguin?",
     ['Waddles', 'Pingu', 'Hugsy', 'Snowy'],
-    'C'),
+    'Hugsy'),
 
     ("Who was Monica’s first serious boyfriend on the show?",
     ['Richard Burke', 'Pete Becker', 'Paul the Wine Guy', 'Alan'],
-    'A'),
+    'Richard Burke'),
 
     ("What is the name of Phoebe’s twin sister?",
     ['Regina Buffay', 'Ursula Buffay', 'Lily Buffay', 'Nina Buffay'],
-    'B'),
+    'Ursula Buffay'),
 
     ("What is Ross’s profession?",
     ['Paleontologist', 'Archaeologist', 'Biologist', 'Historian'],
-    'A'),
+    'Paleontologist'),
 
     ("Which character accidentally reveals Chandler and Monica’s relationship first?",
     ['Phoebe', 'Joey', 'Ross', 'Rachel'],
-    'B'),
+    'Joey'),
 
     ("What is the name of Ross’s son?",
     ['Jack', 'Daniel', 'Ben', 'Eric'],
-    'C'),
+    'Ben'),
 
     ("Which Las Vegas event happens to Ross and Rachel?",
     ['They lose all their money', 'They win a casino jackpot', 'They get engaged', 'They get married while drunk'],
-    'D'),
+    'They get married while drunk'),
 
     ("What is the name of Chandler’s annoying ex-girlfriend?",
     ['Janice', 'Kathy', 'Nina', 'Joanna'],
-    'A'),
+    'Janice'),
 
     ("What is Phoebe’s husband’s name?",
     ['David', 'Mike Hannigan', 'Gary', 'Frank Jr.'],
-    'B'),
+    'Mike Hannigan'),
 
     ("What is Monica obsessed with keeping clean?",
     ['Her office', 'Her car', 'Her apartment', 'Her shoes'],
-    'C'),
+    'Her apartment'),
 
     ("What is Rachel’s daughter’s name?",
     ['Ella', 'Emma', 'Emily', 'Ava'],
-    'B'),           
+    'Emma'),           
 
-    (" Which character is the first to get a turkey stuck on their head",
+    (" Which character is the first to get a turkey stuck on their head?",
     ['Monica', 'Rachel', 'Phoebe', 'Joey'],
-    'D'),
+    'Joey'),
 
     ("What is Joey’s famous acting role on TV?",
     ['Dr. Mark Sloan', 'Dr. Joey Tribbiani', 'Dr. Drake Ramoray', 'Dr. House'],
-    'C'),
+    'Dr. Drake Ramoray'),
 
     ("Who walks Carol down the aisle at her wedding?",
     ['Joey', 'Chandler', 'Ross', 'Susan'],
-    'C'),
+    'Ross'),
 
     ("What is Chandler afraid of?",
     ['Commitment and dogs', 'Heights', 'Water', 'Dogs'],
-    'D'),
+    'Dogs'),
 
     ("What is the name of Monica and Rachel’s apartment number after it changes?",
     ['21', '20', '19', '18'],
-    'B'),
+    '20'),
 
     ("What does Ross yell when someone touches his sandwich?",
     ['“My sandwich!”', '“Don’t eat that!”', '“That’s mine!”', '“Put it back!”'],
-    'A'),
+    'My sandwich!'),
 
     ("How many babies does Phoebe carry for her brother?",
     ['One', 'Two', 'Four', 'Three'],
-    'D')  
+    'Three')  
+]
+
+questions_table = [
+    # first row
+    {
+        "question": "What is the name of Ross’s second wife?",
+        "options": ['Carol Willick', 'Emily Waltham', 'Susan Bunch', 'Mona'],
+        "correct_answer": '',
+    }
 ]
 
 def run_quiz():
